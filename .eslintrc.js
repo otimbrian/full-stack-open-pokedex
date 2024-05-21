@@ -16,7 +16,7 @@ module.exports = {
     "sourceType": "module"
   },
   "plugins": [
-    "react", "jest"
+    "react", "jest", '@stylistic/js'
   ],
   "rules": {
     "indent": [
@@ -27,10 +27,10 @@ module.exports = {
       "error",
       "unix"
     ],
-    "quotes": [
-      "error",
-      "single"
-    ],
+    // "quotes": [
+    //   "error",
+    //   "single"
+    // ],
     "semi": [
       "error",
       "never"
